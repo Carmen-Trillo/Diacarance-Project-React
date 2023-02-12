@@ -1,0 +1,46 @@
+$blue:#066285;
+$white: #ffffff;
+
+/**adaptación de estilos de bootstrat del header**/
+.container-fluid{
+    background-color: $blue;
+    padding: 0px;
+    margin: 0px;
+}
+  
+.nav-link{
+    font-family: 'Jura';
+    text-transform: uppercase;
+    font-size: 18px;
+}
+  
+.nav-item a:hover{
+    border-bottom: $white solid 3px;
+}
+    
+
+  
+  /**adaptación formato escritorio**/
+  
+@media (min-width: 700px){
+  
+  /**formato del header**/
+.socialHeader {
+    background-color: #066285;
+    text-align: right;
+    padding-right: 1vw;
+    padding-top: 0.2vh;
+    margin-bottom: 0.5vw;
+    img{
+        width: 1.72vw;
+    }
+}
+  
+.navbar {
+    background-color: $blue;
+    padding: 0%;
+    height: 18vh;
+    margin-bottom: 0.3em;
+}
+
+}
