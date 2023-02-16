@@ -1,38 +1,38 @@
-@charset "UTF-8";
-/**adaptación de estilos de bootstrat del header**/
-.container-fluid {
-  background-color: #066285;
-  padding: 0px;
-  margin: 0px;
-}
-
-.nav-link {
+@font-face {
   font-family: "Jura";
+  src: url("./FUENTES/Jura-VariableFont_wght.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+.contNav {
+  background-color: #066285;
+  width: 100vw;
+  height: 15vh;
+  border: 0cm;
+  padding: 0%;
+  margin: 0%;
+  font-family: Jura;
   text-transform: uppercase;
-  font-size: 18px;
+  font-weight: bold;
+  font-size: larger;
+  font-style: normal;
+  color: #ffffff;
+}
+.contNav a:hover {
+  border-bottom: white solid 3px;
+}
+.contNav img {
+  padding: 7%;
+  margin-left: -3vw;
 }
 
-.nav-item a:hover {
-  border-bottom: #ffffff solid 3px;
-}
-
-/**adaptación formato escritorio**/
-@media (min-width: 700px) {
-  /**formato del header**/
-  .socialHeader {
-    background-color: #066285;
-    text-align: right;
-    padding-right: 1vw;
-    padding-top: 0.2vh;
-    margin-bottom: 0.5vw;
-  }
-  .socialHeader img {
-    width: 1.72vw;
-  }
-  .navbar {
-    background-color: #066285;
-    padding: 0%;
-    height: 18vh;
-    margin-bottom: 0.3em;
-  }
-}/*# sourceMappingURL=NavBar.css.map */
+.Navbar {
+  padding: 0%;
+  margin: 0%;
+}/*# sourceMappingURL=Navbar.css.map */

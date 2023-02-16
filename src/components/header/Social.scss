@@ -1,0 +1,21 @@
+$blue:#066285;
+$white: #ffffff;
+  
+* {
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+}
+
+.socialHeader {
+    text-align: right;
+    padding-right: 0.8vw;
+    margin-bottom: 1vh;
+    margin-top: -5vh;
+    
+
+    img{
+        width: 2vw;
+        margin-right: 0.2vw;
+    }
+}

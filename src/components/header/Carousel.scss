@@ -1,9 +1,15 @@
 $blue:#066285;
 $white: #ffffff;
 
+* {
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+}
+
 .slider {
-    width: 100vw;
-    margin: auto;
-    overflow: hidden;
-    margin-bottom: 5%;
+	width: 100vw;
+	margin: auto;
+	overflow: hidden;
+    margin-top: 2vh;
 }

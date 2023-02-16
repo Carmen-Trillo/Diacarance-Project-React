@@ -1,46 +1,43 @@
 $blue:#066285;
 $white: #ffffff;
 
-/**adaptación de estilos de bootstrat del header**/
-.container-fluid{
-    background-color: $blue;
-    padding: 0px;
-    margin: 0px;
-}
-  
-.nav-link{
+@font-face {
     font-family: 'Jura';
-    text-transform: uppercase;
-    font-size: 18px;
+    src: url('./FUENTES/Jura-VariableFont_wght.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
-  
-.nav-item a:hover{
-    border-bottom: $white solid 3px;
-}
-    
 
-  
-  /**adaptación formato escritorio**/
-  
-@media (min-width: 700px){
-  
-  /**formato del header**/
-.socialHeader {
-    background-color: #066285;
-    text-align: right;
-    padding-right: 1vw;
-    padding-top: 0.2vh;
-    margin-bottom: 0.5vw;
+* {
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+}
+
+.contNav {
+    background-color: $blue;
+    width: 100vw;
+    height: 15vh;
+    border: 0cm;
+    padding: 0%;
+    margin: 0%;
+    font-family: Jura;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+    font-style: normal;
+    color: $white;
+    a:hover {
+        border-bottom: white solid 3px;
+    }
     img{
-        width: 1.72vw;
+        padding: 7%;
+        margin-left: -3vw;
     }
 }
-  
-.navbar {
-    background-color: $blue;
+
+.Navbar{
     padding: 0%;
-    height: 18vh;
-    margin-bottom: 0.3em;
+    margin: 0%;
 }
 
-}
