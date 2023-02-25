@@ -1,9 +1,3 @@
-@font-face {
-  font-family: "Jura";
-  src: url("./FUENTES/Jura-VariableFont_wght.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
 * {
   box-sizing: border-box;
   margin: 0%;
@@ -12,8 +6,8 @@
 
 .contNav {
   background-color: #066285;
-  width: 100vw;
-  height: 15vh;
+  width: 93.7vw;
+  height: 17vh;
   border: 0cm;
   padding: 0%;
   margin: 0%;
@@ -29,10 +23,33 @@
 }
 .contNav img {
   padding: 7%;
-  margin-left: -3vw;
+  margin-left: -1vw;
 }
 
-.Navbar {
-  padding: 0%;
-  margin: 0%;
+@media (min-width: 320px) and (max-width: 760px) {
+  .contNav {
+    background-color: #066285;
+    width: 80.5vw;
+    height: 11vh;
+    border: 0cm;
+    margin: 0%;
+    font-family: Jura;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: larger;
+    font-style: normal;
+    color: #ffffff;
+  }
+  .contNav a:hover {
+    border-bottom: white solid 3px;
+  }
+  .contNav img {
+    margin-left: 1vw;
+    width: 40vw;
+    height: 10vh;
+    margin-top: -1vh;
+  }
+  .navbar-toggler {
+    margin-right: 5vw;
+  }
 }/*# sourceMappingURL=Navbar.css.map */

@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Social />
     <Navbar />
     <Carousel />
-
+    <About />
     {/* <App /> */}
   </React.StrictMode>,
 )

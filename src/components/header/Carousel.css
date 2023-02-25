@@ -9,4 +9,10 @@
   margin: auto;
   overflow: hidden;
   margin-top: 2vh;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  .slider {
+    height: 70vh;
+  }
 }/*# sourceMappingURL=Carousel.css.map */
