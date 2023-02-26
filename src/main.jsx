@@ -6,7 +6,11 @@ import Carousel from './components/header/Carousel'
 import Social from './components/header/Social'
 import Navbar from './components/header/Navbar'
 import About from './components/body/About'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Bigdata from './components/body/Bigdata'
+import Advantages from './components/body/Advantages'
+import Contact from './components/body/Contact'
+import Companies from './components/body/Companies'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 
@@ -16,6 +20,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Carousel />
     <About />
-    {/* <App /> */}
+    <Bigdata />
+    <Advantages />
+    <Contact />
+    <Companies />
   </React.StrictMode>,
 )

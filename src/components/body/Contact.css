@@ -1,1 +1,95 @@
-/*# sourceMappingURL=Contact.css.map */
+#contact1 {
+  background-image: url(../../assets/img/contacto.jpg);
+  padding: 180px 100px;
+  width: 100%;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 30em;
+  margin-bottom: 3em;
+}
+#contact1 :before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+#contact2 h2 {
+  text-align: left;
+  margin-top: -3em;
+  color: #066285;
+  font-size: 30px;
+  position: relative;
+  font-family: "Jura";
+}
+
+p {
+  text-align: left;
+  margin-left: 3em;
+  color: #0A0A0A;
+  font-size: 20px;
+  position: relative;
+  font-family: "Jura";
+}
+
+#button {
+  text-align: left;
+  margin-left: -50vw;
+}
+
+#send {
+  margin-left: 8.2vw;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  #contact1 {
+    background-image: url(../../assets/img/contacto-m.jpg);
+    padding: 18vh 4vw;
+    width: 100%;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 55vh;
+    margin-bottom: 2vh;
+  }
+  #contact1 :before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1019607843);
+  }
+  #contact2 h2 {
+    text-align: center;
+    margin-top: -3em;
+    color: #066285;
+    font-size: 23px;
+    position: relative;
+    font-family: "Jura";
+  }
+  p {
+    text-align: center;
+    color: #0A0A0A;
+    font-size: 20px;
+    position: relative;
+    font-family: "Jura";
+    margin-left: -2vw;
+  }
+  #button {
+    text-align: center;
+    margin-left: 0vw;
+  }
+  #send {
+    text-align: center;
+    margin-left: 20vw;
+  }
+}/*# sourceMappingURL=Contact.css.map */

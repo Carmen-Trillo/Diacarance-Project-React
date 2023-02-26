@@ -1,5 +1,90 @@
+$blue:#066285;
+$white: #ffffff;
+$turquoise: rgb(79,185,227);
 
-
-@media (min-width: 320px) and (max-width: 760px){
-
+@font-face {
+    font-family: 'Jura';
+    src: url('./assets/font/Jura.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
+
+#containerAd {
+    background-image: url(../../assets/img/ventaja.jpg);
+    text-align: center;
+    font-size: medium;
+    padding: 2em;
+    border-radius: 10px;
+    border: 2px solid #066285;
+    background-color: #F5F5F5;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    row-gap: 5px;
+    width: 85%;
+    height: 20%;
+    margin: 2em auto;
+    font-family: 'Jura';
+    margin-bottom: 5em;
+    :before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(239, 239, 239, 0.142);
+    }
+    h1{
+        color: $blue;
+        height: 80px;
+        text-transform: uppercase;
+        text-align:center;
+    }
+}
+
+#accordion{
+    width: 40vw;
+    margin-top: 3vh;
+    .accor{
+    background-color: #9fe0ef;
+    font-family: 'Jura';
+    }
+    .accorDet{
+    background-color: $white;
+    font-family: 'Jura';
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 760px) {
+    .containerAd{
+        background-image: url(../../assets/img/foto\ ia\ niños.jpg);
+        width: 100vw;
+        border-radius: 10px;
+        border: 2px solid #066285;
+        background-color: #F5F5F5;
+        background-position: right center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        font-family:'Jura';
+        }
+        
+      .ventajas:before {
+        content:'';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(239, 239, 239, 0.6);
+        }
+    }
+
+    #accordion{
+        width: 50vw;
+        margin-top: 3vh;
+    }
+

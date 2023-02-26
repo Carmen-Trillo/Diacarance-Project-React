@@ -13,4 +13,11 @@
 .socialHeader img {
   width: 2vw;
   margin-right: 0.2vw;
+}
+
+@media (min-width: 320px) and (max-width: 760px) {
+  .socialHeader img {
+    width: 5vw;
+    margin-top: 2vh;
+  }
 }/*# sourceMappingURL=Social.css.map */

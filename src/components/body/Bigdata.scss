@@ -1,0 +1,21 @@
+$blue:#066285;
+$white: #ffffff;
+$turquoise: rgb(79,185,227);
+
+.defIA{
+    font-family: 'Jura';
+    text-align: center;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    h2{
+        color: $blue;
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 760px){
+    defIA{
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+}

@@ -11,6 +11,7 @@
 }
 .offer h2 {
   color: #066285;
+  text-transform: uppercase;
 }
 
 #containerOffer {

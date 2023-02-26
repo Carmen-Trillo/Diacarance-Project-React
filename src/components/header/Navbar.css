@@ -30,7 +30,7 @@
   .contNav {
     background-color: #066285;
     width: 80.5vw;
-    height: 11vh;
+    height: 9vh;
     border: 0cm;
     margin: 0%;
     font-family: Jura;
@@ -47,9 +47,12 @@
     margin-left: 1vw;
     width: 40vw;
     height: 10vh;
-    margin-top: -1vh;
+    margin-top: -2vh;
   }
   .navbar-toggler {
     margin-right: 5vw;
+  }
+  .burguer {
+    margin-top: -2vh;
   }
 }/*# sourceMappingURL=Navbar.css.map */
