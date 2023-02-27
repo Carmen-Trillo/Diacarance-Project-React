@@ -1,0 +1,166 @@
+$blue:#066285;
+$white: #ffffff;
+$turquoise: rgb(79,185,227);
+
+#container1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: $blue;
+    color: $white;
+    padding-bottom: 3vh;
+}
+  
+#links{
+    margin-top: 2vh;
+    text-align: left;
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: $white;
+    }
+}
+
+#social {
+    text-align: center;
+    padding-top: 5vh;
+    img{
+        text-align: center;
+        width: 3vw; 
+    }
+    h2{
+        color:$white;
+        text-transform: uppercase;
+        font-family: 'Jura';
+        font-size: 24px;
+        margin-top: 1vh;
+    }
+}
+  
+#logo img{
+    width: 60%;
+    margin-top: 4vh;
+    }
+  
+#container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-self: center;
+    background-color: $blue;
+    color: $white;
+    font-family: 'Jura';
+    padding: 0;
+    font-size: 14px;
+}
+  
+#copyright {
+    margin-left: 1vw;
+}
+  
+#copyright p{
+    font-size: small;
+    color:$white;
+}
+  
+#legal {
+    margin-left: 12vw;
+    font-size: small;
+    a {
+        display:inline-block;
+        text-decoration: none;
+        color:$white;
+        margin-left: 2vw;
+    }
+    a:hover{
+        border-bottom: $white solid 3px;
+        }
+}
+
+@media (min-width: 320px) and (max-width: 760px){
+    #container1 {
+        padding-top: 0.5vh;
+        margin-top: 2vh;
+        padding-bottom: 2vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        }
+          
+    #links{
+        margin-top: 1.5vh;
+        li{
+            list-style: none;
+            font-size: 20px;
+            font-family: 'Jura';
+            text-align: center;
+            margin-left: -5vw;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            border-bottom: $white solid 3px;
+        }
+    }
+          
+    #social {
+        text-align: center;
+        padding-bottom: 2em;
+        img {
+            width: 8vw; 
+        }
+        h2 {
+        color:white;
+        text-transform: uppercase;
+        font-family: 'Jura';
+        font-size: 30px;
+        text-align: center;
+        margin-top: -3vh;
+        }
+    }
+          
+    #logo {
+        text-align: center;
+        img {
+        width: 70%;
+        margin-top: -1vh;
+        margin-bottom: 1vh;
+        }
+    }
+          
+    #container2 {
+        background-color: #066285;
+        color: white;
+        font-family: 'Jura';
+        padding: 0;
+        font-size: 14px;
+        padding-bottom: 2em;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+          
+    #copyright {
+        text-align: center;
+        margin-left: 1em;
+        margin-right: 1em;
+        font-size: smaller;
+        p{
+            color:white;
+        }
+    }
+          
+    #legal {
+        text-align: center;
+        font-size: x-small;
+        margin-left: -4vw;
+        a {
+        display:inline-block;
+        text-decoration: none;
+        color:white;
+        }
+        a:hover{
+        border-bottom: white solid 3px;
+        }
+    }
+}

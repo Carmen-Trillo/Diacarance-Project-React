@@ -10,6 +10,7 @@ import Bigdata from './components/body/Bigdata'
 import Advantages from './components/body/Advantages'
 import Contact from './components/body/Contact'
 import Companies from './components/body/Companies'
+import Footer from './components/footer/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
@@ -24,5 +25,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Advantages />
     <Contact />
     <Companies />
+    <Footer />
   </React.StrictMode>,
 )
