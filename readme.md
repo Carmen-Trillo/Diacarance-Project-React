@@ -20,7 +20,7 @@
 ## 3. Team Members
 
 | Name | Role | GitHub | Likedin |
-| :--- | :---: | :---: |:---: |
+| :---: | :---: | :---: | :---: |
 | Carmen Trillo | Developer | https://github.com/Carmen-Trillo | https://www.linkedin.com/in/carmentrillonavarro/ |
 
 
