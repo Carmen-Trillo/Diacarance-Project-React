@@ -1,5 +1,5 @@
 <div align="center">
-<img style="width:250px; height:200px; margin:12px" src="src/assets/img/logo/logo-DTS-header.png"  alt="Diacarance Technology Solution Logo"/>
+<img style="width:250px, margin:12px" src="src/assets/img/logo/logo-DTS-header.png"  alt="Diacarance Technology Solution Logo"/>
 </div>
   
 <h1 align="center">Project: "Landing Page"</h1>
