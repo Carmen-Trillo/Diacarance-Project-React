@@ -1,5 +1,5 @@
 <div align="center">
-<img style="width:250px; height:200px; margin:12px" src="src/assets/img/logo/logo-DTS-header"  alt="Diacarance Technology Solution Logo"/>
+<img style="width:250px; height:200px; margin:12px" src="src/assets/img/logo/logo-DTS-header.png"  alt="Diacarance Technology Solution Logo"/>
 </div>
   
 <h1 align="center">Project: "Landing Page"</h1>
@@ -19,8 +19,8 @@
 
 ## 3. Team Members
 
-| Name | Role | |
-| :--- | :---: | :---: |
+| Name | Role | GitHub | Likedin |
+| :--- | :---: | :---: |:---: |
 | Carmen Trillo | Developer | https://github.com/Carmen-Trillo | https://www.linkedin.com/in/carmentrillonavarro/ |
 
 
